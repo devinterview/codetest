@@ -1,0 +1,29 @@
+{
+    "error":{
+        "code": 0,
+        "message": "OK",
+        "event-time": "2018-06-04 15:26:00"
+    },
+    "payload":{
+        "user":{
+            "uid": 12878,
+            "fullname": "Keith Daykin",
+            "forename": "keith",
+            "surname": "daykin",
+            "email": "km.daykin@outlook.com",
+            "address": {
+              "number": 2,
+              "street": "Some street",
+              "town": "Testingham",
+              "county": "Testshire",
+              "postcode": "CH76TH"
+            },
+            "created": "2017-12-01 12:12:00",
+            "modified": "2018-01-25 11:11:00",
+            "is_staff": false,
+            "is_admin": false,
+            "is_disabled": false
+        }
+    }
+}
+

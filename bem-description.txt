@@ -1,0 +1,10 @@
+BEM structure:
+
+Block - in the main-content template, the article.outer--contacts-container
+would be relevant on it's own.
+
+Element - the content of contact-card.html would not make sense alone, it needs
+a container which, when styled, will separate the contacts in the list.
+
+Modifier - the class of the section containing the contact details. This describes
+the content by it's purpose and its relation to other html.
