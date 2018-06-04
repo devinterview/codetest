@@ -1,0 +1,12 @@
+<ul>
+    <li>{{ person.fullname|e }}</li>    
+    <li>{{ person.email|e }}</li>
+    <li>
+        <h6>Address:</h6>
+        <ul data-hidden="true">        
+        {% for line in person.address %}
+        <li>{{ line|e }}</li>
+        {% endfor %}
+        </ul>
+    </li>
+</ul>
