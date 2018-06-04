@@ -1,0 +1,11 @@
+
+<article class="outer--contacts-container">
+    <header class="header--contacts-title">
+        <h1>Contacts</h1>
+    </header>
+    {% for person in contacts %}
+    <section class="inner--contact-detail">
+        {{ include("contact-card.html"); }}
+    </section>
+    {% endfor %}
+</article>
