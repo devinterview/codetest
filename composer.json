@@ -1,0 +1,6 @@
+{
+    "name": "keith/codetest",
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}
